@@ -1,5 +1,5 @@
 This is work in progress.
 
 ### Using remark
-* [Configuration](Configuration)
+* [Configuration](./Configuration)
    * [Options](Configuration Options)
