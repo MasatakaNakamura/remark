@@ -5,7 +5,7 @@ The following [configuration](Configuration) options are currently available:
 Highlighting is done using [Highlight.js](http://softwaremaniacs.org/soft/highlight/en/). Check out the demo/test page for the [available styles and languages](http://softwaremaniacs.org/media/soft/highlight/test.html).
 
 * `highlightInline`
-  * Highlight inline code blocks
+  * Highlight inline code blocks automatically
   * Default: `false`
   * Alternatives: `true`, `false`
 
