@@ -1,4 +1,4 @@
-Configuration is done either by setting configuration options directly in the `<script>` tag or by calling the `remark.config` method in your JavaScript.
+Configuration is done either by setting configuration options directly in the `<script>` tag or by calling the `remark.config` method.
 
 ### Setting options in the `<script>` tag
 
