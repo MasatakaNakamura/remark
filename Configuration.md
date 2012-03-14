@@ -33,7 +33,7 @@ Highlighting is done using [Highlight.js](http://softwaremaniacs.org/soft/highli
 
 * `highlightLanguage`
   * Set default language for syntax highlighting
-  * Default: -
+  * Default: - (automatically determined)
   * Alternatives: `python`, `profile`, `ruby`, `perl`, `php`, `scala`, `go`, `xml`, `django`, `css`, `javascript`, `vbscript`, `lua`, `delphi`, `java`, `cpp`, `objectivec`, `vala`, `cs`, `rsl`, `rib`, `mel`, `sql`, `smalltalk`, `lisp`, `ini`, `apache`, `nginx`, `diff`, `dos`, `bash`, `cmake`, `axapta`, `1c`, `avrasm`, `vhdl`, `parser3`, `tex`, `haskell`, `erlang`, `erlang_repl`
 
 * `highlightStyle`
