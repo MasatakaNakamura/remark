@@ -1,5 +1,5 @@
 This is work in progress.
 
 ### Using remark
-* [Markdown Extensions](wiki/MarkdownExtensions)
+* [Markdown Extensions](wiki/Markdown-Extensions)
 * [Configuration](wiki/Configuration)
