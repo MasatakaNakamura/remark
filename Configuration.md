@@ -24,17 +24,19 @@ The following configuration options are currently available:
 
 ### Highlighting
 
-Highlighting is done using [Highlight.js](http://softwaremaniacs.org/soft/highlight/en/). Check out the demo/test page for the [available styles and languages](http://softwaremaniacs.org/media/soft/highlight/test.html).
+Highlighting is done using [Highlight.js](http://softwaremaniacs.org/soft/highlight/en/). Check out the demo/test page for the [available styles and languages](http://softwaremaniacs.org/media/soft/highlight/test.html). 
+
+Please note that only the styles and languages listed below are embedded in the standard remark build.
 
 * `highlightInline`
   * Highlight inline code blocks automatically
   * Default: `false`
   * Alternatives: `true`, `false`
 
-* `highlightLanguage`
+* <a name="highlightLanguage">`highlightLanguage`</a>
   * Set default language for syntax highlighting
   * Default: - (automatically determined)
-  * Alternatives: `python`, `profile`, `ruby`, `perl`, `php`, `scala`, `go`, `xml`, `django`, `css`, `javascript`, `vbscript`, `lua`, `delphi`, `java`, `cpp`, `objectivec`, `vala`, `cs`, `rsl`, `rib`, `mel`, `sql`, `smalltalk`, `lisp`, `ini`, `apache`, `nginx`, `diff`, `dos`, `bash`, `cmake`, `axapta`, `1c`, `avrasm`, `vhdl`, `parser3`, `tex`, `haskell`, `erlang`, `erlang_repl`
+  * Alternatives: `javascript`, `ruby`, `python`, `bash`, `java`, `php`, `perl`, `cpp`, `objectivec`, `cs`, `sql`, `xml`, `css`, `scala`, `coffeescript`, `lisp`.
 
 * `highlightStyle`
   * Set highlight style for syntax highlighting
