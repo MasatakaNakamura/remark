@@ -33,7 +33,7 @@ Please note that only the styles and languages listed below are embedded in the 
   * Default: `false`
   * Alternatives: `true`, `false`
 
-* <a name="highlightLanguage">`highlightLanguage`</a>
+* [`highlightLanguage`](#highlightLanguage)
   * Set default language for syntax highlighting
   * Default: - (automatically determined)
   * Alternatives: `javascript`, `ruby`, `python`, `bash`, `java`, `php`, `perl`, `cpp`, `objectivec`, `cs`, `sql`, `xml`, `css`, `scala`, `coffeescript`, `lisp`.
