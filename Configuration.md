@@ -39,4 +39,4 @@ Highlighting is done using [Highlight.js](http://softwaremaniacs.org/soft/highli
 * `highlightStyle`
   * Set highlight style for syntax highlighting
   * Default: `default`
-  * Alternatives: `arta`, `ascetic`, `dark`, `default`, `far`, `github`, `idea`, `ir_black`, `magula`, `solarized_dark`, `solarized_light`, `sunburst`, `vs`, `zenburn`.
+  * Alternatives: `arta`, `ascetic`, `dark`, `default`, `far`, `github`, `googlecode`, `idea`, `ir_black`, `magula`, `monokai`, `solarized_dark`, `solarized_light`, `sunburst`, `vs`, `zenburn`.
