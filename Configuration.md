@@ -22,7 +22,7 @@ If you've already got some JavaScript in your slideshow, this is the preferred w
 
 The following configuration options are currently available:
 
-### Highlighting
+### [Highlighting](#highlighting)
 
 Highlighting is done using [Highlight.js](http://softwaremaniacs.org/soft/highlight/en/). Check out the demo/test page for the [available styles and languages](http://softwaremaniacs.org/media/soft/highlight/test.html). 
 
@@ -33,7 +33,7 @@ Please note that only the styles and languages listed below are embedded in the 
   * Default: `false`
   * Alternatives: `true`, `false`
 
-* [`highlightLanguage`](#highlightLanguage)
+* `highlightLanguage`
   * Set default language for syntax highlighting
   * Default: - (automatically determined)
   * Alternatives: `javascript`, `ruby`, `python`, `bash`, `java`, `php`, `perl`, `cpp`, `objectivec`, `cs`, `sql`, `xml`, `css`, `scala`, `coffeescript`, `lisp`.
