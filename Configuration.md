@@ -36,7 +36,7 @@ Please note that only the styles and languages listed below are embedded in the 
 * `highlightLanguage`
   * Set default language for syntax highlighting
   * Default: - (automatically determined)
-  * Alternatives: `javascript`, `ruby`, `python`, `bash`, `java`, `php`, `perl`, `cpp`, `objectivec`, `cs`, `sql`, `xml`, `css`, `scala`, `coffeescript`, `lisp`.
+  * Alternatives: `javascript`, `ruby`, `python`, `bash`, `java`, `php`, `perl`, `cpp`, `objectivec`, `cs`, `sql`, `xml`, `css`, `scala`, `coffeescript`, `lisp`, `clojure`.
 
 * `highlightStyle`
   * Set highlight style for syntax highlighting
