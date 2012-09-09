@@ -41,4 +41,4 @@ Please note that only the styles and languages listed below are embedded in the 
 * `highlightStyle`
   * Set highlight style for syntax highlighting
   * Default: `default`
-  * Alternatives: `arta`, `ascetic`, `dark`, `default`, `far`, `github`, `googlecode`, `idea`, `ir_black`, `magula`, `monokai`, `solarized_dark`, `solarized_light`, `sunburst`, `vs`, `zenburn`.
+  * Alternatives: `arta`, `ascetic`, `dark`, `default`, `far`, `github`, `googlecode`, `idea`, `ir_black`, `magula`, `monokai`, `rainbow`, `solarized_dark`, `solarized_light`, `sunburst`, `tomorrow`, `tomorrow-night-blue`, `tomorrow-night-bright`, `tomorrow-night`, `tomorrow-night-eighties`, `vs`, `zenburn`.
