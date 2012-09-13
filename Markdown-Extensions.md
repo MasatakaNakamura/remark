@@ -1,20 +1,22 @@
 Several Markdown extensions have been implemented to help out with slide layout and formatting.
 
-### Slide Classes
-A line containing one or more dotted CSS class names is extracted, and the specified classes are applied to the current slide:
+### Slide Properties
+Initial lines containing key-value pairs are extracted as slide properties:
 
-    .center.middle
+```markdown
+name: agenda
+class: middle, center
 
-    # Slide with content centered in both dimensions
+# Agenda
 
-Resulting HTML extract:
+The name of this slide is {{ name }}.
+```
 
-    <div id="slideshow">
-      <div class="slide">
-        <div class="content center middle">
-          <h1>Slide with content centered in both dimensions</h1>
+Slide properties serve multiple purposes:
 
-Slide classes available include `left`, `center`, `right`, `top`, `middle` and `bottom`.
+ - Naming and styling slides using properties `name` and `class`
+ - Using slides as templates using properties `template` and `layout`
+ - Expansion of `{{ property }}` expressions to property values
 
 ### Content Classes
 
