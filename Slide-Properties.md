@@ -89,3 +89,25 @@ Using only two dashes (--) to separate slides implicitly uses the preceding slid
 ```
 
 Template slides may also contain a special `{{content}}` expression to explicitly position the content of derived slides, instead of having it implicitly appended.
+
+### Layout
+
+The `layout` property either makes the current slide a layout slide, which is omitted from the slideshow and serves as the default template used for all subsequent slides:
+
+```markdown
+layout: true
+
+# Section
+
+---
+
+## Sub section 1
+
+---
+
+## Sub section 2
+```
+
+Or, when set to false, reverts to using no default template.
+
+Multiple layout slides may be defined throughout the slideshow to define a common template for a series of slides.
