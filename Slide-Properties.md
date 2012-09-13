@@ -1,3 +1,5 @@
+Several slide properties have been implemented:
+
 ### Name
 
 The `name` property accepts a name used to identify the current slide:
