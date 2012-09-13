@@ -45,3 +45,47 @@ Resulting HTML extract:
 ```
 
 Built-in slide classes include `left`, `center`, `right`, `top`, `middle` and `bottom`.
+
+### Template
+
+The `template` property names another slide to be used as a template for the current slide:
+
+```markdown
+name: other-slide
+
+Some content.
+
+---
+template: other-slide
+
+Content appended to other-slide's content.
+```
+
+The final content of the current slide will then be this:
+
+```markdown
+Some content.
+
+Content appended to other-slide's content.
+```
+
+Both template slide content and properties are prepended to the current slide, with the following exceptions:
+
+- `name` and `layout` properties are not inherited
+- `class` properties are merged, preserving class order
+
+The `template` property may be used to (apparantly) add content to a slide incrementally, like bullet lists appearing a bullet at a time.
+
+Using only two dashes (--) to separate slides implicitly uses the preceding slide as a template:
+
+```markdown
+# Agenda
+
+--
+1. Introduction
+
+--
+2. Markdown formatting
+```
+
+Template slides may also contain a special `{{content}}` expression to explicitly position the content of derived slides, instead of having it implicitly appended.
