@@ -24,3 +24,24 @@ A Slide name may be used to:
     ```
 
  - Reference slide when used as `template` for some other slide
+
+### Class
+
+The `class` property accepts a comma-separated list of class names, which are applied to the current slide:
+
+```markdown
+class: center, middle
+
+# Slide with content centered in both dimensions
+```
+
+Resulting HTML extract:
+
+```html
+<div id="slideshow">
+  <div class="slide">
+    <div class="content center middle">
+      <h1>Slide with content centered in both dimensions</h1>
+```
+
+Built-in slide classes include `left`, `center`, `right`, `top`, `middle` and `bottom`.
