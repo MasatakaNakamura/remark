@@ -34,7 +34,7 @@ Resulting HTML extract:
 
 Content classes available include `left`, `center` and `right`.
 
-### Language Classes
+### Syntax Highlighting
 
 Both indented code blocks and Github Flavored Markdown ([GFM](http://github.github.com/github-flavored-markdown/)) fenced code blocks are supported, optionally overriding the automatically detected language:
 
