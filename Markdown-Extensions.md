@@ -36,7 +36,7 @@ Content classes available include `left`, `center` and `right`.
 
 ### Language Classes
 
-If the language automatically detected for a code block is incorrect, you may specify the language to use by adding a dotted language class on the first line of code:
+Both indented code blocks and Github Flavored Markdown ([GFM](http://github.github.com/github-flavored-markdown/)) fenced code blocks are supported, optionally overriding the automatically detected language:
 
     Code:
 
@@ -44,6 +44,16 @@ If the language automatically detected for a code block is incorrect, you may sp
         def add(a, b)
           a + b
         end
+
+<pre>
+Code:
+
+```ruby
+def add(a,b)
+  a + b
+end
+```</pre>
+
 
 Inline code is not automatically highlighted (unless [configured to](Configuration) by setting the `highlightInline` configuration option) and must be supplied a language class to be highlighted:
 
