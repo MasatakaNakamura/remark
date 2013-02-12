@@ -1,5 +1,3 @@
-This is work in progress.
-
 ### Using remark
 
 * [Getting Started](wiki/Getting-Started)
