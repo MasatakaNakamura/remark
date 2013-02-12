@@ -14,4 +14,4 @@ Regular Markdown rules apply with only a single exception:
 
 * A line containing three dashes constitutes a new slide (not a horizontal rule, `<hr />`)
 
-Have a look at the [Markdown website]((http://daringfireball.net/projects/markdown/)) if you're not familiar with Markdown formatting.
+Have a look at the [Markdown website]((http://daringfireball.net/projects/markdown/) if you're not familiar with Markdown formatting.
