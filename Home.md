@@ -6,3 +6,4 @@
 ### Moving On
 * [Markdown Extensions](wiki/Markdown-Extensions)
 * [Configuration](wiki/Configuration)
+* [API](wiki/API)
