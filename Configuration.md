@@ -12,7 +12,7 @@ Please notice that the configuration option-value object must be valid JSON, i.e
 
 ### Setting options by calling `remark.config` method
 
-This method uses ordinary JavaScript by calling the `remark.config` [API](wiki/API) method, accepting the same configuration option-value object mentioned above:
+This method uses ordinary JavaScript by calling the `remark.config` [API](API) method, accepting the same configuration option-value object mentioned above:
 
     remark.config({ "option": "value" });
 
