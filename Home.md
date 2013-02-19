@@ -10,3 +10,4 @@
 
 ### User Contributions
 * [LaTeX in remark using MathJax](wiki/Latex-using-MathJax)
+* [AppleScript for converting a FoldingText outline into a remark slideshow](wiki/FoldingText-via-AppleScript)
