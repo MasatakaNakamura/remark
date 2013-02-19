@@ -11,4 +11,4 @@
 ### User Contributions
 * [LaTeX in remark Using MathJax](wiki/Latex-using-MathJax)
 * [Coloured Terminal Listings in remark](http://joshbode.github.com/remark/ansi.html)
-* [AppleScript for Converting a FoldingText Outline Into a remark Slideshow](wiki/FoldingText-Support-using-AppleScript)
+* [FoldingText Outline to remark Slideshow using AppleScript](wiki/FoldingText-Support-using-AppleScript)
