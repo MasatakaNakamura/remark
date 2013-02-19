@@ -1,4 +1,4 @@
-Extracted from [issue](https://github.com/gnab/remark/issues/25) on supporting MathJax in remark, [joshbode](https://github.com/joshbode) supplied the following [gist](https://gist.github.com/joshbode/4065848):
+As requested in issue "[MathJax support](https://github.com/gnab/remark/issues/25)", [joshbode](https://github.com/joshbode) supplied the following [gist](https://gist.github.com/joshbode/4065848), utilizing the remark [ready event](API):
 
 ```html
 <!DOCTYPE html>
