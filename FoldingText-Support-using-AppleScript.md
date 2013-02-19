@@ -1,1 +1,1 @@
-Work in progress.
+This [AppleScript](http://support.foldingtext.com/discussions/questions/357-script-to-generate-remark-formatted-html-file-form-foldingtext) will convert a [FoldingText](http://www.foldingtext.com/) outline into a Remark presentation. The script is still under development. Follow the link for the latest version. 
