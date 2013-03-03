@@ -22,6 +22,13 @@ If you've already got some JavaScript in your slideshow, this is the preferred w
 
 The following configuration options are currently available:
 
+### <a name="general">General</a>
+
+* `ratio`
+  * Set the slideshow display ratio.
+  * Default: `4:3`
+  * Alternatives: `16:9`, ...
+
 ### <a name="highlighting">Highlighting</a>
 
 Highlighting is done using [Highlight.js](http://softwaremaniacs.org/soft/highlight/en/). Check out the demo/test page for the [available styles and languages](http://softwaremaniacs.org/media/soft/highlight/test.html). 
