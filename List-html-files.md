@@ -1,6 +1,7 @@
 To have a start page listing all .html files in your remark file, create a file called index.php with the following code:
 
-`<?php
+```
+<?php
 echo "Here are our files:</br></br>";
 $path = ".";
 $dh = opendir($path);
@@ -12,4 +13,5 @@ while (($file = readdir($dh)) !== false) {
     }
 }
 closedir($dh);
-?> `
+?> 
+```
