@@ -46,7 +46,7 @@ Resulting HTML extract:
 
 Built-in slide classes include `left`, `center`, `right`, `top`, `middle` and `bottom`.
 
-### Template
+### <a name="template">Template</a>
 
 The `template` property names another slide to be used as a template for the current slide:
 
@@ -90,7 +90,7 @@ Using only two dashes (--) to separate slides implicitly uses the preceding slid
 
 Template slides may also contain a special `{{content}}` expression to explicitly position the content of derived slides, instead of having it implicitly appended.
 
-### Layout
+### <a name="layout">Layout</a>
 
 The `layout` property either makes the current slide a layout slide, which is omitted from the slideshow and serves as the default template used for all subsequent slides:
 
