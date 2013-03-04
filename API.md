@@ -2,7 +2,7 @@ Work in progress.
 
 ### Navigation
 
-The following code block shows the API functions available for controlling slideshow navigation:
+The following code block shows the API functions available for navigating the slideshow:
 
 ```javascript
 // Navigate to the beginning and end of the slideshow
