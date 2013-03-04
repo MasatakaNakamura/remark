@@ -1,6 +1,6 @@
 Several slide properties have been implemented:
 
-### <a name="property-name">Name</a>
+### <a name="name">Name</a>
 
 The `name` property accepts a name used to identify the current slide:
 
@@ -25,7 +25,7 @@ A Slide name may be used to:
 
  - Reference slide when used as `template` for some other slide
 
-### Class
+### <a name="class">Class</a>
 
 The `class` property accepts a comma-separated list of class names, which are applied to the current slide:
 
