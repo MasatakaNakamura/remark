@@ -18,7 +18,7 @@ remark.gotoSlide(5);
 remark.gotoSlide('agenda');
 ```
 
-Read more about [naming slides](property-name).
+Read more about [naming slides](wiki-property-name).
 
 ### Events
 
