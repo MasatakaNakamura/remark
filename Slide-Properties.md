@@ -10,9 +10,11 @@ name: agenda
 # Agenda
 ```
 
-A Slide name may be used to:
+A slide name may be used to:
 
- - Link a slide directly using URL fragment, i.e. `slideshow.html#agenda`
+ - Link to a slide using URL fragment, i.e. `slideshow.html#agenda`
+
+ - Navigate to a slide using the API, i.e. `remark.gotoSlide('agenda')`
 
  - Identify slide DOM element, either for scripting or styling purposes:
 
