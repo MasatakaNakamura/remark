@@ -13,11 +13,12 @@ remark.gotoLastSlide();
 remark.gotoNextSlide();
 remark.gotoPreviousSlide();
 
-// Navigate to a specific slide, either by slide number or name, i.e. 5 or 'agenda'
-remark.gotoSlide(slideNoOrName);
+// Navigate to a specific slide, either by slide number or name
+remark.gotoSlide(5);
+remark.gotoSlide('agenda');
 ```
 
-Read more about [naming slides](wiki-property-name).
+Read more about [naming slides](property-name).
 
 ### Events
 
