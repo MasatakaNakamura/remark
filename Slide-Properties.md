@@ -1,6 +1,6 @@
 Several slide properties have been implemented:
 
-### <a id="property-name">Name</a>
+### <a name="property-name">Name</a>
 
 The `name` property accepts a name used to identify the current slide:
 
