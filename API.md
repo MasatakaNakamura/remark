@@ -1,5 +1,24 @@
 Work in progress.
 
+### Navigation
+
+The following code block shows the API functions available for controlling slideshow navigation:
+
+```javascript
+// Navigate to the beginning and end of the slideshow
+remark.gotoFirstSlide();
+remark.gotoLastSlide();
+
+// Navigate a single slide forward and backward
+remark.gotoNextSlide();
+remark.gotoPreviousSlide();
+
+// Navigate to a specific slide, either by slide number or name, i.e. 5 or 'agenda'
+remark.gotoSlide(slideNoOrName);
+```
+
+Read more about [naming slides](wiki-property-name).
+
 ### Events
 
 #### `ready`
