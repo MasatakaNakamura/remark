@@ -9,7 +9,7 @@ The following code block shows the API functions available for configuring the s
 remark.config({ratio: '16:9'});
 ```
 
-Read more about the alternative ways to [configure](Configuration) a slideshow and the [configuration options](Configuration-Options) available.
+Read more about the alternative ways to [[configure|Configuration]] a slideshow and the [[configuration options|Configuration-Options]] available.
 
 ### Navigation
 
@@ -29,7 +29,7 @@ remark.gotoSlide(5);
 remark.gotoSlide('agenda');
 ```
 
-Read more about [naming slides](Slide-Properties#wiki-name).
+Read more about [[naming slides|Slide-Properties#name]].
 
 ### Events
 
