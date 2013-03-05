@@ -6,7 +6,11 @@ Have a look at the [Markdown website]((http://daringfireball.net/projects/markdo
 
 Basically, remark transforms a Markdown-formatted chunk of text into individual slides in a slideshow. What differentiates remark from similar tools, is that it does all of its work using nothing but JavaScript, running locally in your browser.
 
-A simple Markdown text like the one below represents a slideshow with two slides, each with a heading and a line of text representing the current slide number:
+All regular Markdown formatting rules apply with only a single exception:
+
+* A line containing three dashes constitutes a new slide (not a horizontal rule, `<hr />`)
+
+Thus, a simple Markdown text like the one below represents a slideshow with two slides:
 
 ```
 # Slide 1
@@ -17,7 +21,3 @@ This is slide 1
 # Slide 2
 This is slide 2
 ```
-
-Regular Markdown formatting rules apply with only a single exception:
-
-* A line containing three dashes constitutes a new slide (not a horizontal rule, `<hr />`)
