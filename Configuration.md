@@ -12,10 +12,10 @@ Please notice that the configuration option-value object must be valid JSON, i.e
 
 ### Setting options by calling `remark.config` method
 
-This method uses ordinary JavaScript by calling the `remark.config` [API](API) method, accepting the same configuration option-value object mentioned above:
+This method uses ordinary JavaScript by calling the `remark.config` [[API]] method, accepting the same configuration option-value object mentioned above:
 
     remark.config({ "option": "value" });
 
 If you've already got some JavaScript in your slideshow, this is the preferred way.
 
-Check out the list of [configuration options](Configuration-Options).
+Check out the list of [[configuration options|Configuration-Options]].
