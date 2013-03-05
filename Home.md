@@ -7,7 +7,7 @@
 * [Markdown Extensions](wiki/Markdown-Extensions)
   * [Slide properties](wiki/Slide-Properties)
 * [Configuration](wiki/Configuration)
-  * [Configuration Options](Configuration-Options)
+  * [Configuration Options](wiki/Configuration-Options)
 * [API](wiki/API)
 
 ### User Contributions
