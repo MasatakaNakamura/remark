@@ -1,6 +1,6 @@
 ### The Basics
 
-* [Getting Started](Getting-Started)
+* [Getting Started](wiki/Getting-Started)
 * [Markdown](wiki/Markdown)
 
 ### Moving On
