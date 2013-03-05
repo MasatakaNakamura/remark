@@ -5,6 +5,7 @@
 
 ### Moving On
 * [Markdown Extensions](wiki/Markdown-Extensions)
+  * [Slide properties](wiki/Slide-Properties)
 * [Configuration](wiki/Configuration)
 * [API](wiki/API)
 
