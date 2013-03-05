@@ -11,7 +11,7 @@ The following configuration options are currently available:
 
 Highlighting is done using [Highlight.js](http://softwaremaniacs.org/soft/highlight/en/). Check out the demo/test page for the [available styles and languages](http://softwaremaniacs.org/media/soft/highlight/test.html). 
 
-Please note that only the styles and languages listed below are embedded in the standard remark build.
+Please note that **only the styles and languages listed below** are embedded in the standard remark build.
 
 * `highlightInline`
   * Highlight inline code blocks automatically
@@ -22,6 +22,7 @@ Please note that only the styles and languages listed below are embedded in the 
   * Set default language for syntax highlighting
   * Default: - (automatically determined)
   * Alternatives: `javascript`, `ruby`, `python`, `bash`, `java`, `php`, `perl`, `cpp`, `objectivec`, `cs`, `sql`, `xml`, `css`, `scala`, `coffeescript`, `lisp`, `clojure`, `http`.
+  * To disable automatic highlighting, use `no-highlight`
 <br /><br />
 * `highlightStyle`
   * Set highlight style for syntax highlighting
