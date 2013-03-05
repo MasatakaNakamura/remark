@@ -25,7 +25,7 @@ A slide name may be used to:
           <h1>Agenda</h1>
     ```
 
- - Reference slide when used as `template` for some other slide
+ - Reference slide when used as `[[template|Slide-Properties#wiki-template]]` for some other slide
 
 ### <a name="class">Class</a>
 
