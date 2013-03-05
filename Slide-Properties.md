@@ -14,7 +14,7 @@ A slide name may be used to:
 
  - Link to a slide using URL fragment, i.e. `slideshow.html#agenda`
 
- - Navigate to a slide using the API, i.e. `remark.gotoSlide('agenda')`
+ - Navigate to a slide using the [[API]], i.e. `remark.gotoSlide('agenda')`
 
  - Identify slide DOM element, either for scripting or styling purposes:
 
