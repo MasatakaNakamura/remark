@@ -1,5 +1,16 @@
 Work in progress.
 
+### Configuration
+
+The following code block shows the API functions available for configuring the slideshow:
+
+```javascript
+// Set slideshow ratio to 16:9
+remark.config({ratio: '16:9'});
+```
+
+Read more about the alternative ways to [configure](Configuration) a slideshow and the [configuration options](Configuration-Options) available.
+
 ### Navigation
 
 The following code block shows the API functions available for navigating the slideshow:
