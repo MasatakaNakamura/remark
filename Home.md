@@ -9,6 +9,7 @@
 * [Configuration](wiki/Configuration)
   * [Options](wiki/Configuration-Options)
 * [API](wiki/API)
+* [Building remark](wiki/Building-remark)
 
 ### User Contributions
 * [LaTeX in remark Using MathJax](wiki/Latex-using-MathJax)
