@@ -18,7 +18,7 @@ Slide properties serve multiple purposes:
  - Using slides as templates using properties `template` and `layout`
  - Expansion of `{{ property }}` expressions to property values
 
-Check out the [list of supported slide properties](Slide-Properties).
+Check out the [[list of supported slide properties|Slide-Properties]].
 
 ### Content Classes
 
@@ -55,8 +55,8 @@ end
 ```</pre>
 
 
-Inline code is not automatically highlighted (unless [configured to](Configuration) by setting the `highlightInline` configuration option) and must be supplied a language class to be highlighted:
+Inline code is not automatically highlighted (unless [[configured to|Configuration]] by setting the `highlightInline` configuration option) and must be supplied a language class to be highlighted:
 
     Inline code: `.ruby a = 5`
 
-The default language for code may be [configured](Configuration) using the `highlightLanguage` configuration option. To disable syntax highlighting, use the class `no-highlight`.
+The default language for code may be [[configured|Configuration]] using the `highlightLanguage` configuration option. To disable syntax highlighting, use the class `no-highlight`.
