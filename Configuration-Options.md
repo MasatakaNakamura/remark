@@ -17,12 +17,12 @@ Please note that only the styles and languages listed below are embedded in the 
   * Highlight inline code blocks automatically
   * Default: `false`
   * Alternatives: `true`, `false`
-
+<br /><br />
 * `highlightLanguage`
   * Set default language for syntax highlighting
   * Default: - (automatically determined)
   * Alternatives: `javascript`, `ruby`, `python`, `bash`, `java`, `php`, `perl`, `cpp`, `objectivec`, `cs`, `sql`, `xml`, `css`, `scala`, `coffeescript`, `lisp`, `clojure`, `http`.
-
+<br /><br />
 * `highlightStyle`
   * Set highlight style for syntax highlighting
   * Default: `default`
