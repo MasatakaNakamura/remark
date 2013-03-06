@@ -55,7 +55,7 @@ end
 ```</pre>
 
 
-Inline code is not automatically highlighted (unless [[configured to|Configuration]] by setting the `highlightInline` configuration option) and must be supplied a language class to be highlighted:
+Inline code is not automatically highlighted (unless [[configured to|Configuration]] by setting the `highlightInline` configuration option) and must be supplied a language to be highlighted:
 
     Inline code: `.ruby a = 5`
 
