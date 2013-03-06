@@ -6,7 +6,7 @@ Building remark requires you to have the following software installed:
 
 #### Downloading source and installing dependencies
 
-You can easily build remark yourself in only a few, simple steps:
+In addition to cloning the remark repository, it's git sub modules and node package dependencies must be installed as well:
 
 ```sh
 git clone https://github.com/gnab/remark.git
