@@ -1,5 +1,4 @@
 ### The Basics
-
 * [[Getting Started|Getting-Started]]
 * [[Markdown]]
 
@@ -9,6 +8,8 @@
 * [[Configuration]]
   * [[Options|Configuration-Options]]
 * [[API]]
+
+### Taking it Further
 * [[Building remark|Building-remark]]
 
 ### User Contributions
