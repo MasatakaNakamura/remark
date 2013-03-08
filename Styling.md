@@ -20,7 +20,19 @@ The default styles are defined using [LESS](http://lesscss.org/) in [remark.less
 
 ### Applying styles
 
-Besides writing your own CSS targeting the above DOM hierarchy in a general fashion, CSS classes can be assigned on a per-slide basis using the `[[class|Slide-Properties#wiki-class]]` slide property:
+You can use regular CSS to style slides. It's primarily the `div.content` element that should be styled, as its ancestors are more or less the slideshow framework itself, visually speaking.
+
+To target a specific slide's `div.content` element, you can use the `[[name|Slide-Properties#wiki-name]]` slide property to give it a name that can be used to identify it:
+
+```markdown
+name: agenda
+
+# Agenda
+```
+
+This will set the `div.content`'s `id` to `slide-agenda`, so that is becomes `div#slide-agenda.content`.
+
+To target one or more `div.content` elements, you create a CSS class and then use use the `[[class|Slide-Properties#wiki-class]]` slide property to assign the class to a slide:
 
 ```markdown
 class: middle, center
@@ -28,4 +40,4 @@ class: middle, center
 # Slide title
 ```
 
-This will extend the `div.content` to `div.content.middle.center`.
+This will add the `middle` and `center` classes to the `div.content`, so that it becomes `div.content.middle.center`.
