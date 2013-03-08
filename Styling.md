@@ -20,8 +20,6 @@ The default styles are defined using [LESS](http://lesscss.org/) in [remark.less
 
 ### Applying styles
 
-#### `class` slide property
-
 Besides writing your own CSS targeting the above DOM hierarchy in a general fashion, CSS classes can be assigned on a per-slide basis using the `[[class|Slide-Properties#wiki-class]]` slide property:
 
 ```markdown
