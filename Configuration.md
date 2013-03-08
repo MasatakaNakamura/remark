@@ -10,11 +10,11 @@ This method is convenient if you don't need any other JavaScript in your slidesh
 
 Please notice that the configuration option-value object must be valid JSON, i.e. quotation marks must be used for keys and value strings instead of single quotes.
 
-### Setting options by calling `remark.config` method
+### Setting options by calling `remark.config.set` method
 
-This method uses ordinary JavaScript by calling the `remark.config` [[API]] method, accepting the same configuration option-value object mentioned above:
+This method uses ordinary JavaScript by calling the `remark.config.set` [[API]] method, accepting the same configuration option-value object mentioned above:
 
-    remark.config({ "option": "value" });
+    remark.config.set({ "option": "value" });
 
 If you've already got some JavaScript in your slideshow, this is the preferred way.
 
