@@ -1,6 +1,7 @@
 ### The Basics
 * [[Getting Started|Getting-Started]]
 * [[Markdown]]
+* [[Styling]]
 
 ### Moving On
 * [[Markdown Extensions|Markdown-Extensions]]
