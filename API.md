@@ -6,7 +6,11 @@ The following code block shows the API functions available for configuring the s
 
 ```javascript
 // Set slideshow ratio to 16:9
-remark.config({ratio: '16:9'});
+remark.config.set('ratio', '16:9');
+// Get slideshow ratio
+remark.config.get('ratio');
+// Set both ratio and highlightStyle properties in one go
+remark.config.set({ratio: '16:9', highlightStyle: 'sunburst'});
 ```
 
 Read more about the alternative ways to [[configure|Configuration]] a slideshow and the [[configuration options|Configuration-Options]] available.
