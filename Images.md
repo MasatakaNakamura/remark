@@ -19,3 +19,5 @@ background-image: url(image.jpg)
 
 # Slide with background image
 ```
+
+The background image will by default be centered both horizontally and vertically on the slide, and scaled down to fit if it is larger than the slide.
