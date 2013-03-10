@@ -1,7 +1,7 @@
 ### The Basics
 * [[Getting Started|Getting-Started]]
 * [[Markdown]]
-* [[Simple styling|Simple-styling]]
+* [[Text alignment|Text-alignment]]
 
 ### Moving On
 * [[More on styling|More-on-styling]]
