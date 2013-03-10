@@ -12,7 +12,7 @@ Regular images are inserted using normal Markdown [image syntax](http://daringfi
 
 ### Background images
 
-
+The [[background-image|Slide-properties#wiki-background-image]] slide property lets you set the [background-image](http://www.w3schools.com/cssref/pr_background-image.asp) CSS property for the slide:
 
 ```markdown
 background-image: url(image.jpg)
