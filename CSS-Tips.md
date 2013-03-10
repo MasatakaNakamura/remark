@@ -1,3 +1,4 @@
+
 # Image on right, text on left
 
 The following CSS creates a slide which has an image on the right and some text on the left. 
