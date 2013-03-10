@@ -1,5 +1,3 @@
-Work in progress.
-
 ### DOM hierarchy
 
 Below is a visualization of the DOM hierachy of a slideshow:
