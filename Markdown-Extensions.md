@@ -55,8 +55,8 @@ end
 ```</pre>
 
 
-Inline code is not automatically highlighted (unless [[configured to|Configuration]] by setting the `highlightInline` configuration option) and must be supplied a language to be highlighted:
+Inline code is not automatically highlighted (unless configured using the `[[highlightInline|Configuration-Options#wiki-highlighting]]` configuration option) and must be supplied a language to be highlighted:
 
     Inline code: `.ruby a = 5`
 
-The default language for code may be [[configured|Configuration]] using the `highlightLanguage` configuration option. To disable syntax highlighting, use the class `no-highlight`.
+The default language for code may be configured using the `[[highlightLanguage|Configuration-Options#wiki-highlighting]]` configuration option. To disable syntax highlighting, use the class `no-highlight`.
