@@ -28,4 +28,4 @@ The following CSS creates a slide which has an image on the right and some text 
       }
 ```
 
-To use this code, the img tag needs to be embedded in both .right-side and .right-side-wrap, as follows: `.right-side[.right-side-wrap[![title](./img/IMAGE.jpg)`
+To use this code, the img tag needs to be embedded in both .right-side and .right-side-wrap, as follows: `.right-side[.right-side-wrap[![title](./img/IMAGE.jpg)]]`
