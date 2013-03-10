@@ -1,7 +1,7 @@
 ### The Basics
 * [[Getting Started|Getting-Started]]
 * [[Markdown]]
-* [[Text alignment|Text-alignment]]
+* [[Text Alignment|Text-alignment]]
 * [[Images]]
 
 ### Moving On
