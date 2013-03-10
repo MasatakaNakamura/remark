@@ -19,7 +19,7 @@ The classes available for _vertically_ aligning text are:
 * `middle`
 * `bottom`
 
-### Text block alignment
+### <a name="block">Text block alignment</a>
 
 [[Content classes|Markdown-extensions#wiki-content-classes]] let you assign CSS classes to a text block, and remark comes with a set of classes for setting horizontal text alignment:
 
