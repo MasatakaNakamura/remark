@@ -63,7 +63,7 @@ Other slide background CSS properties defined in the default [remark styles](htt
 ```css
 background-position: center;
 background-repeat: no-repeat;
-background-size: contain;        /* applied only if background-image is larger than slide */
+background-size: contain;      /* applied using JavaScript only if background-image is larger than slide */
 ```
 
 ### <a name="template">Template</a>
