@@ -4,7 +4,7 @@
 * [[Text alignment|Text-alignment]]
 
 ### Moving On
-* [[More on styling|More-on-styling]]
+* [[Styling]]
 * [[Markdown Extensions|Markdown-Extensions]]
   * [[Slide properties|Slide-Properties]]
 * [[Configuration]]
