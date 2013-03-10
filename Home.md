@@ -2,6 +2,7 @@
 * [[Getting Started|Getting-Started]]
 * [[Markdown]]
 * [[Text alignment|Text-alignment]]
+* [[Images]]
 
 ### Moving On
 * [[Styling]]
