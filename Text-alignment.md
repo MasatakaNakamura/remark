@@ -1,5 +1,3 @@
-To help out with layout and formatting, remark comes with a couple of Markdown extensions to help you out:
-
 ### Whole-slide text alignment
 
 The `[[class|Slide-Properties#wiki-class]]` slide property lets you assign CSS classes to a slide, and remark comes with a set of classes for setting text horizontal and vertical alignment:
