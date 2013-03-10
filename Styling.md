@@ -6,7 +6,7 @@ Below is a visualization of the DOM hierachy of a slideshow:
 html
  | - body
       | - div#slideshow                    # Slideshow container
-               | - div.slide               # First slide
+               | - div.slide               # First slide container
                |      | - div.content      # First slide content
                | - div.slide               # Second slide
                ...
