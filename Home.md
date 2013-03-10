@@ -18,3 +18,4 @@
 * [Coloured Terminal Listings in remark](http://joshbode.github.com/remark/ansi.html)
 * [[FoldingText Outline to remark Slideshow using AppleScript|FoldingText-Support-using-AppleScript]]
 * [[Create index.php file to list all presentations in remark folder|List-html-files]]
+* [[CSS Tips for Styling Remark|Css-tips]]
