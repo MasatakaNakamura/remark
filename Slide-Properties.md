@@ -58,6 +58,14 @@ background-image: url(image.jpg)
 # Slide with background image
 ```
 
+Other slide background CSS properties defined in the default [remark styles](https://github.com/gnab/remark/blob/master/src/remark.less):
+
+```css
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;        /* applied only if background-image is larger than slide */
+```
+
 ### <a name="template">Template</a>
 
 The `template` property names another slide to be used as a template for the current slide:
