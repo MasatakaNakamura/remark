@@ -6,6 +6,7 @@ Initial lines containing key-value pairs are extracted as slide properties:
 ```markdown
 name: agenda
 class: middle, center
+background-image: url(remarkable.jpg)
 
 # Agenda
 
@@ -14,8 +15,8 @@ The name of this slide is {{ name }}.
 
 Slide properties serve multiple purposes:
 
- - Naming and styling slides using properties `name` and `class`
- - Using slides as templates using properties `template` and `layout`
+ - Naming and styling slides using properties `[[name|Slide-properties#wiki-name]]` and `[[class|Slide-properties#wiki-class]]`
+ - Using slides as templates using properties `[[template|Slide-properties#wiki-template]]` and `[[layout|Slide-properties#wiki-layout]]`
  - Expansion of `{{ property }}` expressions to property values
 
 Check out the [[list of supported slide properties|Slide-Properties]].
@@ -24,12 +25,12 @@ Check out the [[list of supported slide properties|Slide-Properties]].
 
 Any occurences of one or more dotted CSS class names followed by square brackets are replaced with the contents of the brackets with the specified classes applied:
 
-    .footnote[.red.bold[*] At least browsers try their best]
+    .footnote[.red.bold[*] Important footnote]
 
 Resulting HTML extract:
 
     <span class="footnote">
-      <span class="red bold">*</span> At least browsers try their best
+      <span class="red bold">*</span> Important footnote
     </span>
 
 Content classes available include `left`, `center` and `right`.
