@@ -20,7 +20,7 @@ Slide properties serve multiple purposes:
 
 Check out the [[list of supported slide properties|Slide-Properties]].
 
-### Content Classes
+### <a name="content-classes">Content Classes</a>
 
 Any occurences of one or more dotted CSS class names followed by square brackets are replaced with the contents of the brackets with the specified classes applied:
 
