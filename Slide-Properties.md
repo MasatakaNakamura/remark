@@ -48,6 +48,16 @@ Resulting HTML extract:
 
 Built-in slide classes include `left`, `center`, `right`, `top`, `middle` and `bottom`.
 
+### <a name="background-image">Background-image</a>
+
+The `background-image` property maps directly to the [background-image](http://www.w3schools.com/cssref/pr_background-image.asp) CSS property, which are applied to the current slide:
+
+```markdown
+background-image: url(image.jpg)
+
+# Slide with background image
+```
+
 ### <a name="template">Template</a>
 
 The `template` property names another slide to be used as a template for the current slide:
