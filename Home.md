@@ -1,9 +1,10 @@
 ### The Basics
 * [[Getting Started|Getting-Started]]
 * [[Markdown]]
-* [[Styling]]
+* [[Simple styling|Simple-styling]]
 
 ### Moving On
+* [[More on styling|More-on-styling]]
 * [[Markdown Extensions|Markdown-Extensions]]
   * [[Slide properties|Slide-Properties]]
 * [[Configuration]]
