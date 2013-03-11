@@ -30,7 +30,7 @@ name: agenda
 
 This will set the `div.content`'s `id` to `slide-agenda`, so that is becomes `div#slide-agenda.content`.
 
-To target one or more `div.content` elements, you create a CSS class and then use use the `[[class|Slide-Properties#wiki-class]]` slide property to assign the class to a slide:
+To target one or more `div.content` elements, you can create a CSS class and then use the `[[class|Slide-Properties#wiki-class]]` slide property to assign the class to a slide:
 
 ```markdown
 class: middle, center
