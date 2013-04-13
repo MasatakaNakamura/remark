@@ -12,7 +12,7 @@ Below is a boilerplate HTML container to get you started:
   <head>
     <title>Title</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <script src="http://gnab.github.com/remark/downloads/remark-0.4.4.min.js" type="text/javascript"></script>
+    <script src="http://gnab.github.com/remark/downloads/remark-0.4.6.min.js" type="text/javascript"></script>
     <style type="text/css" media="screen">
       /* Slideshow styles */
     </style>
