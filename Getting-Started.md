@@ -12,7 +12,6 @@ Below is a boilerplate HTML container to get you started:
   <head>
     <title>Title</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <script src="http://gnab.github.io/remark/downloads/remark-0.4.6.min.js" type="text/javascript"></script>
     <style type="text/css" media="screen">
       /* Slideshow styles */
     </style>
@@ -24,7 +23,7 @@ class: center, middle
 
 # Title
 
- ---
+---
 
 # Agenda
 
@@ -37,7 +36,11 @@ class: center, middle
 # Introduction
 
     </textarea>
-    <div id="slideshow"></div>
+    <script src="http://gnab.github.io/remark/downloads/remark-0.5.0.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
   </body>
 </html>
 ```
