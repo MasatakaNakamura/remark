@@ -37,14 +37,7 @@ Content classes available include `left`, `center` and `right`.
 
 ### Syntax Highlighting
 
-Both indented code blocks and Github Flavored Markdown ([GFM](http://github.github.com/github-flavored-markdown/)) fenced code blocks are supported, optionally overriding the automatically detected language:
-
-    Code:
-
-        .ruby
-        def add(a, b)
-          a + b
-        end
+Github Flavored Markdown ([GFM](http://github.github.com/github-flavored-markdown/)) fenced code blocks are the preferred way of creating code blocks, easily letting you specify the highlighting language:
 
 <pre>
 Code:
@@ -55,9 +48,4 @@ def add(a,b)
 end
 ```</pre>
 
-
-Inline code is not automatically highlighted (unless configured using the `[[highlightInline|Configuration-Options#wiki-highlighting]]` configuration option) and must be supplied a language to be highlighted:
-
-    Inline code: `.ruby a = 5`
-
-The default language for code may be configured using the `[[highlightLanguage|Configuration-Options#wiki-highlighting]]` configuration option. To disable syntax highlighting, use the class `no-highlight`.
+A default highlighting language may be configured using the `[[highlightLanguage|Configuration-Options#wiki-highlighting]]` configuration option. Specifying a language on a code block will override the default.
