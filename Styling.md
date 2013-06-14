@@ -5,22 +5,22 @@ Below is a visualization of the DOM hierachy of a slideshow:
 ```markdown
 html
  | - body
-      | - div#slideshow                    # Slideshow container
-               | - div.slide               # First slide container
-               |      | - div.content      # First slide content
-               | - div.slide               # Second slide
+      | - div.remark-slideshow                          # Slideshow container
+               | - div.remark-slide                     # First slide container
+               |      | - div.remark-slide-content      # First slide content
+               | - div.slide                            # Second slide
                ...
 ```
 
-Every slide is represented by a separate `div.slide` that is visible when it's the current slide and hidden when not. The `div.slide` has `display: table`, and contains a `div.content` with `display: table-cell` that holds the actual slide content.
+Every slide is represented by a separate `div.remark-slide` that is visible when it's the current slide and hidden when not. The `div.remark-slide` has `display: table`, and contains a `div.remark-slide-content` with `display: table-cell` that holds the actual slide content.
 
 The default styles are defined using [LESS](http://lesscss.org/) in [remark.less](https://github.com/gnab/remark/blob/master/src/remark.less).
 
 ### Styling slides
 
-You can use regular CSS to style slides. It's primarily the `div.content` element that should be styled, as its ancestors are more or less the slideshow framework itself, visually speaking.
+You can use regular CSS to style slides. It's primarily the `div.remark-slide-content` element that should be styled, as its ancestors are more or less the slideshow framework itself, visually speaking.
 
-To target a specific slide's `div.content` element, you can use the `[[name|Slide-Properties#wiki-name]]` slide property to give it a name that can be used to identify it:
+To target a specific slide's `div.remark-slide-content` element, you can use the `[[name|Slide-Properties#wiki-name]]` slide property to give it a name that can be used to identify it:
 
 ```markdown
 name: agenda
@@ -28,9 +28,9 @@ name: agenda
 # Agenda
 ```
 
-This will set the `div.content`'s `id` to `slide-agenda`, so that is becomes `div#slide-agenda.content`.
+This will set the `div.remark-slide-content`'s `id` to `slide-agenda`, so that is becomes `div#slide-agenda.remark-slide-content`.
 
-To target one or more `div.content` elements, you can create a CSS class and then use the `[[class|Slide-Properties#wiki-class]]` slide property to assign the class to every slide you want to target:
+To target one or more `div.remark-slide-content` elements, you can create a CSS class and then use the `[[class|Slide-Properties#wiki-class]]` slide property to assign the class to every slide you want to target:
 
 ```markdown
 class: middle, center
@@ -38,7 +38,7 @@ class: middle, center
 # Slide title
 ```
 
-This will add the `middle` and `center` classes to the `div.content`, so that it becomes `div.content.middle.center`.
+This will add the `middle` and `center` classes to the `div.content`, so that it becomes `div.remark-slide-content.middle.center`.
 
 ### Styling slide content
 
