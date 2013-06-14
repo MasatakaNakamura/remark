@@ -8,9 +8,8 @@
 * [[Styling]]
 * [[Markdown Extensions|Markdown-Extensions]]
   * [[Slide properties|Slide-Properties]]
-* [[Configuration]]
-  * [[Options|Configuration-Options]]
 * [[API]]
+  * [[Configuration Options|Configuration-Options]]
 
 ### Taking it Further
 * [[Building remark|Building-remark]]
