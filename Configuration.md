@@ -1,21 +1,9 @@
-Configuration is done either by setting configuration options directly in the `<script>` tag or by calling the `remark.config` method.
+A slideshow is configured on creation using the `[[create|API#creation]]` function:
 
-### Setting options in the `<script>` tag
-
-This method is convenient if you don't need any other JavaScript in your slideshow, as it saves you the trouble of creating that extra `<script>` tag:
-
-    <script src="remark.js" language="text/javascript">
-      { "option": "value" }
-    </script>
-
-Please notice that the configuration option-value object must be valid JSON, i.e. quotation marks must be used for keys and value strings instead of single quotes.
-
-### Setting options by calling `remark.config.set` method
-
-This method uses ordinary JavaScript by calling the `remark.config.set` [[API]] method, accepting the same configuration option-value object mentioned above:
-
-    remark.config.set({ "option": "value" });
-
-If you've already got some JavaScript in your slideshow, this is the preferred way.
+```javascript
+var slideshow = remark.create({ 
+  property: "value" 
+});
+```
 
 Check out the list of [[configuration options|Configuration-Options]].
