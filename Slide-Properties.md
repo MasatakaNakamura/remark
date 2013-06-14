@@ -14,14 +14,14 @@ A slide name may be used to:
 
  - Link to a slide using URL fragment, i.e. `slideshow.html#agenda`
 
- - Navigate to a slide using the [[API]], i.e. `remark.gotoSlide('agenda')`
+ - Navigate to a slide using the [[API]], i.e. `slideshow.gotoSlide('agenda')`
 
  - Identify slide DOM element, either for scripting or styling purposes:
 
     ```html
-    <div id="slideshow">
-      <div class="slide">
-        <div id="slide-agenda" class="content">
+    <div class="remark-slideshow">
+      <div class="remark-slide">
+        <div id="slide-agenda" class="remark-slide-content">
           <h1>Agenda</h1>
     ```
 
@@ -40,9 +40,9 @@ class: center, middle
 Resulting HTML extract:
 
 ```html
-<div id="slideshow">
-  <div class="slide">
-    <div class="content center middle">
+<div class="remark-slideshow">
+  <div class="remark-slide">
+    <div class="remark-slide-content center middle">
       <h1>Slide with content centered in both dimensions</h1>
 ```
 
