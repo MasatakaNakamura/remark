@@ -16,6 +16,8 @@ var slideshow = remark.create({
 });
 ```
 
+Check out the list of [[configuration options|Configuration-Options]].
+
 ### Navigation
 
 After creating your slideshow, a number of functions are available for navigating:
