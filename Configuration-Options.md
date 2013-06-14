@@ -15,7 +15,7 @@ Please note that **only the styles and languages listed below** are embedded in 
 
 * `highlightLanguage`
   * Set default language for syntax highlighting
-  * Default: - (automatically determined)
+  * Default: - (no highlighting)
   * Alternatives: `javascript`, `ruby`, `python`, `bash`, `java`, `php`, `perl`, `cpp`, `objectivec`, `cs`, `sql`, `xml`, `css`, `scala`, `coffeescript`, `lisp`, `clojure`, `http`.
   * To disable automatic highlighting, use `no-highlight`
 <br /><br />
