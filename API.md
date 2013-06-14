@@ -1,36 +1,37 @@
-Work in progress.
+### <a name="general">Creation</a>
 
-### Configuration
-
-The following code block shows the API functions available for configuring the slideshow:
+To create a slideshow, you use the 'create` function as follows:
 
 ```javascript
-// Set slideshow ratio to 16:9
-remark.config.set('ratio', '16:9');
-// Get slideshow ratio
-remark.config.get('ratio');
-// Set both ratio and highlightStyle properties in one go
-remark.config.set({ratio: '16:9', highlightStyle: 'sunburst'});
+var slideshow = remark.create();
 ```
 
-Read more about the alternative ways to [[configure|Configuration]] a slideshow and the [[configuration options|Configuration-Options]] available.
+Optionally, you can pass in a number of configuration options:
+
+```javascript
+var slideshow = remark.create({
+  highlightLanguage: 'javascript',
+  highlightStyle: 'monokai',
+  ...
+});
+```
 
 ### Navigation
 
-The following code block shows the API functions available for navigating the slideshow:
+After creating your slideshow, a number of functions are available for navigating:
 
 ```javascript
 // Navigate to the beginning and end of the slideshow
-remark.gotoFirstSlide();
-remark.gotoLastSlide();
+slideshow.gotoFirstSlide();
+slideshow.gotoLastSlide();
 
 // Navigate a single slide forward and backward
-remark.gotoNextSlide();
-remark.gotoPreviousSlide();
+slideshow.gotoNextSlide();
+slideshow.gotoPreviousSlide();
 
 // Navigate to a specific slide, either by slide number or name
-remark.gotoSlide(5);
-remark.gotoSlide('agenda');
+slideshow.gotoSlide(5);
+slideshow.gotoSlide('agenda');
 ```
 
 Read more about [[naming slides|Slide-Properties#wiki-name]].
