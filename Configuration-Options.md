@@ -13,11 +13,6 @@ Highlighting is done using [Highlight.js](http://softwaremaniacs.org/soft/highli
 
 Please note that **only the styles and languages listed below** are embedded in the standard remark build.
 
-* `highlightInline`
-  * Highlight inline code blocks automatically
-  * Default: `false`
-  * Alternatives: `true`, `false`
-<br /><br />
 * `highlightLanguage`
   * Set default language for syntax highlighting
   * Default: - (automatically determined)
