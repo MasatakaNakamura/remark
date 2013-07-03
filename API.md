@@ -1,6 +1,6 @@
 ### <a name="general">Creation</a>
 
-To create a slideshow, you use the 'create` function as follows:
+To create a slideshow, you use the `remark.create` function as follows:
 
 ```javascript
 var slideshow = remark.create();
@@ -15,6 +15,8 @@ var slideshow = remark.create({
   ...
 });
 ```
+
+This should all go in a `<script>` block __in the end__ of your `<body>` tag.
 
 Check out the list of [[configuration options|Configuration-Options]].
 
