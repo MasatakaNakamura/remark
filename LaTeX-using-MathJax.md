@@ -1,3 +1,5 @@
+**Note:** as of 0.5.0 the `ready` event [is no longer necessary](https://github.com/gnab/remark/issues/25#issuecomment-20334728) so the code below will no longer work as is, but there is a [working demo](http://jsfiddle.net/HbPKg/1/).
+
 As requested in issue "[MathJax support](https://github.com/gnab/remark/issues/25)", [joshbode](https://github.com/joshbode) supplied the following [gist](https://gist.github.com/joshbode/4065848), utilizing the remark [ready event](API):
 
 ```html
