@@ -4,10 +4,10 @@ Below is a visualization of the DOM hierachy of a slideshow:
 
 ```markdown
 html
- | - body.remark-container
-      | - div.remark-slideshow                          # Slideshow container
-               | - div.remark-slide                     # First slide container
-               |      | - div.remark-slide-content      # First slide content
+ | - body.remark-container                              # Slideshow container
+      | - div.remark-slideshow                          # The slideshow element
+               | - div.remark-slide                     # First slide
+               |      | - div.remark-slide-content      # First slide's content
                | - div.slide                            # Second slide
                ...
 ```
