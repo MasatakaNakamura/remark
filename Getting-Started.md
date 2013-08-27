@@ -12,7 +12,7 @@ Below is a boilerplate HTML container to get you started:
   <head>
     <title>Title</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <style type="text/css" media="screen">
+    <style type="text/css">
       /* Slideshow styles */
     </style>
   </head>
