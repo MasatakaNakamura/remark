@@ -42,4 +42,14 @@ Read more about [[naming slides|Slide-Properties#wiki-name]].
 
 ### Events
 
-(TODO)
+Upon navigation (and later, other stuff as well), events are emitted from the slideshow:
+
+```javascript
+slideshow.on('showSlide', function (slide) {
+  // Slide is the slide being navigated to
+});
+
+slideshow.on('hideSlide', function (slide) {
+  // Slide is the slide being navigated away from
+});
+```
