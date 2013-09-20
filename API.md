@@ -1,4 +1,8 @@
-### <a name="general">Creation</a>
+This page documents the current API, which may still change radically until a version 1.0 is reached.
+
+## Slideshow
+
+#### <a name="general">Creation</a>
 
 To create a slideshow, you use the `remark.create` function as follows:
 
@@ -20,7 +24,7 @@ This should all go in a `<script>` block __in the end__ of your `<body>` tag.
 
 Check out the list of [[configuration options|Configuration-Options]].
 
-### Navigation
+#### Navigation
 
 After creating your slideshow, a number of functions are available for navigating:
 
@@ -40,7 +44,7 @@ slideshow.gotoSlide('agenda');
 
 Read more about [[naming slides|Slide-Properties#wiki-name]].
 
-### Events
+#### Events
 
 Upon navigation (and later, other stuff as well), events are emitted from the slideshow:
 
@@ -52,4 +56,30 @@ slideshow.on('showSlide', function (slide) {
 slideshow.on('hideSlide', function (slide) {
   // Slide is the slide being navigated away from
 });
+```
+
+Please see below for more information on the `slide` parameter.
+
+## Slide
+
+A slide has the following format:
+
+```javascript
+{
+  // Function returning the slides number (1..N, where N is the number of slides)
+  getSlideNo: function (),
+
+  // The notes for the slide
+  notes: <string>,
+
+  // The slide properties extracted from the Markdown
+  properties: {
+    class: "center, middle",
+    name: "agenda",
+    ...
+  },
+  
+  // The Markdown representing the slide
+  source: <string>
+}
 ```
