@@ -40,6 +40,10 @@ slideshow.gotoPreviousSlide();
 // Navigate to a specific slide, either by slide number or name
 slideshow.gotoSlide(5);
 slideshow.gotoSlide('agenda');
+
+// Suspend/resume remarks process of keyboard and touch events for custom builds, etc...
+slideshow.pause();
+slideshow.resume();
 ```
 
 Read more about [[naming slides|Slide-Properties#wiki-name]].
@@ -58,7 +62,7 @@ slideshow.on('hideSlide', function (slide) {
 });
 ```
 
-Please see below for more information on the `slide` parameter.
+Alternatives include `beforeShowSlide`, `afterShowSlide`, `beforeHideSlide`, and `afterHideSlide` which trigger before or after changes are actually made to the DOM.  Please see below for more information on the `slide` parameter.
 
 ## Slide
 
