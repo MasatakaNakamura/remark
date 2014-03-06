@@ -30,7 +30,7 @@ If you want do style the slideshow container, i.e. change the default gray color
 
 You can use regular CSS to style slides. It's primarily the `div.remark-slide-content` element that should be styled, as its ancestors are more or less the slideshow framework itself, visually speaking.
 
-To target a specific slide's `div.remark-slide-content` element, you can use the `[[name|Slide-Properties#wiki-name]]` slide property to give it a name that can be used to identify it:
+To target a specific slide's `div.remark-slide-content` element, you can use the [[name|Slide-Properties#wiki-name]] slide property to give it a name that can be used to identify it:
 
 ```markdown
 name: agenda
@@ -40,7 +40,7 @@ name: agenda
 
 This will set the `div.remark-slide-content`'s `id` to `slide-agenda`, so that is becomes `div#slide-agenda.remark-slide-content`.
 
-To target one or more `div.remark-slide-content` elements, you can create a CSS class and then use the `[[class|Slide-Properties#wiki-class]]` slide property to assign the class to every slide you want to target:
+To target one or more `div.remark-slide-content` elements, you can create a CSS class and then use the [[class|Slide-Properties#wiki-class]] slide property to assign the class to every slide you want to target:
 
 ```markdown
 class: middle, center
@@ -52,7 +52,7 @@ This will add the `middle` and `center` classes to the `div.content`, so that it
 
 ### Styling slide content
 
-While the `[[name|Slide-Properties#wiki-name]]` and `[[class|Slide-Properties#wiki-class]]` slide properties  identify and apply CSS classes to entire slides, there's also [[content classes|Markdown-Extensions#wiki-content-classes]] for styling specific content of a slide:
+While the [[name|Slide-Properties#wiki-name]] and [[class|Slide-Properties#wiki-class]] slide properties  identify and apply CSS classes to entire slides, there's also [[content classes|Markdown-Extensions#wiki-content-classes]] for styling specific content of a slide:
 
 ```markdown
 # Slide title
