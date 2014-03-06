@@ -15,8 +15,8 @@ The name of this slide is {{ name }}.
 
 Slide properties serve multiple purposes:
 
- - Naming and styling slides using properties `[[name|Slide-properties#wiki-name]]` and `[[class|Slide-properties#wiki-class]]`
- - Using slides as templates using properties `[[template|Slide-properties#wiki-template]]` and `[[layout|Slide-properties#wiki-layout]]`
+ - Naming and styling slides using properties [[name|Slide-properties#wiki-name]] and [[class|Slide-properties#wiki-class]].
+ - Using slides as templates using properties [[template|Slide-properties#wiki-template]] and [[layout|Slide-properties#wiki-layout]].
  - Expansion of `{{ property }}` expressions to property values
 
 Check out the [[list of supported slide properties|Slide-Properties]].
@@ -48,4 +48,4 @@ def add(a,b)
 end
 ```</pre>
 
-A default highlighting language may be configured using the `[[highlightLanguage|Configuration-Options#wiki-highlighting]]` configuration option. Specifying a language on a code block will override the default.
+A default highlighting language may be configured using the [[highlightLanguage|Configuration-Options#wiki-highlighting]] configuration option. Specifying a language on a code block will override the default.
