@@ -1,6 +1,6 @@
 ### Whole-slide text alignment
 
-The slide property '[class](Slide-Properties#class)' lets you assign CSS classes to a slide, and remark comes with a set of classes for setting horizontal and vertical text alignment:
+The [class](Slide-Properties#class) slide property lets you assign CSS classes to a slide, and remark comes with a set of classes for setting horizontal and vertical text alignment:
 
 ```markdown
 class: middle, center
