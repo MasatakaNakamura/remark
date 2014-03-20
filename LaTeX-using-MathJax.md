@@ -24,7 +24,6 @@ class: center, middle
  
 Display formula:
     $$e^{i\pi} + 1 = 0$$
- 
 
     </textarea>
     <script src="http://gnab.github.io/remark/downloads/remark-0.6.1.min.js" type="text/javascript"></script>
