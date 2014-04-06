@@ -34,7 +34,7 @@ To split parts of a slide into steps, use `--`. For instance
 - bullet 2
 ```
 
-Will show 
+will show 
 
 ### Slide
 - bullet 1
