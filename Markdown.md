@@ -21,3 +21,28 @@ This is slide 1
 # Slide 2
 This is slide 2
 ```
+
+To split parts of a slide into steps, use `--`. For instance
+
+```
+# Slide
+
+- bullet 1
+
+--
+
+- bullet 2
+```
+
+Will show 
+
+### Slide
+- bullet 1
+
+on one slide, and 
+
+### Slide 
+- bullet 1
+- bullet 2
+
+on the next slide.
