@@ -3,7 +3,7 @@ The following configuration options are currently available:
 ### <a name="general">General</a>
 
 ```javascript
-{
+var slideshow = remark.create({
   // Set the slideshow display ratio
   // Default: '4:3'
   // Alternatives: '16:9', ...
@@ -21,7 +21,7 @@ The following configuration options are currently available:
     // Alternatives: false
     touch: true
   }
-} 
+}); 
 ```
 
 ### <a name="highlighting">Highlighting</a>
