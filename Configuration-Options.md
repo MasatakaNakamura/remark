@@ -2,10 +2,27 @@ The following configuration options are currently available:
 
 ### <a name="general">General</a>
 
-* `ratio`
-  * Set the slideshow display ratio.
-  * Default: `4:3`
-  * Alternatives: `16:9`, ...
+```javascript
+{
+  // Set the slideshow display ratio
+  // Default: '4:3'
+  // Alternatives: '16:9', ...
+  ratio: '4:3',
+
+  // Navigation options
+  navigation: {
+    // Enable or disable navigating using scroll
+    // Default: true
+    // Alternatives: false
+    scroll: true,
+
+    // Enable or disable navigation using touch
+    // Default: true
+    // Alternatives: false
+    touch: true
+  }
+} 
+```
 
 ### <a name="highlighting">Highlighting</a>
 
