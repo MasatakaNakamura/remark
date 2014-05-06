@@ -49,3 +49,17 @@ end
 ```</pre>
 
 A default highlighting language may be configured using the [[highlightLanguage|Configuration-Options#wiki-highlighting]] configuration option. Specifying a language on a code block will override the default.
+
+Lines prefixed with `*` will automatically get highlighted with a yellow background, which can be handy for
+bringing attention to specific parts of code snippets, i.e.:
+
+<pre>
+Implicit return statment:
+
+```ruby
+def add(a,b)
+*  a + b
+end
+
+Notice how there is no return statement.
+```</pre>
