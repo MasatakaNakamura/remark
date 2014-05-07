@@ -45,25 +45,139 @@ Empty lines before and after the two dashes are of significance as the preceding
 
 ## Slide Properties
 
-Initial lines containing key-value pairs are extracted as slide properties:
+Initial lines of a slide on a key-value format will be extracted as slide properties.
+
+#### name
+
+The `name` property accepts a name used to identify the current slide:
 
 ```markdown
 name: agenda
-class: middle, center
-background-image: url(remarkable.jpg)
 
 # Agenda
-
-The name of this slide is {{ name }}.
 ```
 
-Slide properties serve multiple purposes:
+A slide name may be used to:
 
- - Naming and styling slides using properties [[name|Slide-properties#wiki-name]] and [[class|Slide-properties#wiki-class]].
- - Using slides as templates using properties [[template|Slide-properties#wiki-template]] and [[layout|Slide-properties#wiki-layout]].
- - Expansion of `{{ property }}` expressions to property values
+ - Link to a slide using URL fragment, i.e. `slideshow.html#agenda`
 
-Check out the [[list of supported slide properties|Slide-Properties]].
+ - Navigate to a slide using the [[API]], i.e. `slideshow.gotoSlide('agenda')`
+
+ - Identify slide DOM element, either for scripting or styling purposes:
+
+    ```html
+    <div class="remark-slideshow">
+      <div class="remark-slide">
+        <div id="slide-agenda" class="remark-slide-content">
+          <h1>Agenda</h1>
+    ```
+
+ - Reference slide when using the [[template|Markdown#template]] slide property.
+
+### class
+
+The `class` property accepts a comma-separated list of class names, which are applied to the current slide:
+
+```markdown
+class: center, middle
+
+# Slide with content centered in both dimensions
+```
+
+Resulting HTML extract:
+
+```html
+<div class="remark-slideshow">
+  <div class="remark-slide">
+    <div class="remark-slide-content center middle">
+      <h1>Slide with content centered in both dimensions</h1>
+```
+
+Built-in slide classes include `left`, `center`, `right`, `top`, `middle` and `bottom`.
+
+### background-image
+
+The `background-image` property maps directly to the [background-image](http://www.w3schools.com/cssref/pr_background-image.asp) CSS property, which are applied to the current slide:
+
+```markdown
+background-image: url(image.jpg)
+
+# Slide with background image
+```
+
+Other slide background CSS properties defined in the default [remark styles](https://github.com/gnab/remark/blob/master/src/remark.less):
+
+```css
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;      /* applied using JavaScript only if background-image is larger than slide */
+```
+
+### template
+
+The `template` property names another slide to be used as a template for the current slide:
+
+```markdown
+name: other-slide
+
+Some content.
+
+---
+template: other-slide
+
+Content appended to other-slide's content.
+```
+
+The final content of the current slide will then be this:
+
+```markdown
+Some content.
+
+Content appended to other-slide's content.
+```
+
+Both template slide content and properties are prepended to the current slide, with the following exceptions:
+
+- `name` and `layout` properties are not inherited
+- `class` properties are merged, preserving class order
+
+The `template` property may be used to (apparently) add content to a slide incrementally, like bullet lists appearing a bullet at a time.
+
+Using only two dashes (--) to separate slides implicitly uses the preceding slide as a template:
+
+```markdown
+# Agenda
+
+--
+1. Introduction
+
+--
+2. Markdown formatting
+```
+
+Template slides may also contain a special `{{content}}` expression to explicitly position the content of derived slides, instead of having it implicitly appended.
+
+### layout
+
+The `layout` property either makes the current slide a layout slide, which is omitted from the slideshow and serves as the default template used for all subsequent slides:
+
+```markdown
+layout: true
+
+# Section
+
+---
+
+## Sub section 1
+
+---
+
+## Sub section 2
+```
+
+Or, when set to false, reverts to using no default template.
+
+Multiple layout slides may be defined throughout the slideshow to define a common template for a series of slides.
 
 ## Content Classes
 
