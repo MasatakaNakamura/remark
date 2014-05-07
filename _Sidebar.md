@@ -12,3 +12,5 @@
 * [[Formatting]]
   * [[Whole-slide text alignment|Formatting#whole-slide-text-alignment]]
   * [[Text block alignment|Formatting#text-block-alignment]]
+  * [[Images|Formatting#images]]
+  * [[Background images|Formatting#background-images]]
