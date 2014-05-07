@@ -1,6 +1,6 @@
 A simple, in-browser, Markdown-driven slideshow tool targeted at people who know their way around HTML and CSS.
 
-### Getting started
+## Getting started
 
 It takes only a few, simple steps to get up and running with remark:
 
