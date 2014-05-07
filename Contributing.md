@@ -25,7 +25,7 @@ To build remark, there's one final command to execute:
 node make
 ```
 
-This will trigger the `all` target in the Makefile-like [make.js](https://github.com/gnab/remark/blob/master/make.js) file producing [remark.js](https://github.com/gnab/remark/blob/master/remark.js) and the minified [remark.min.js](https://github.com/gnab/remark/blob/master/remark.min.js)
+This will trigger the `all` target in the Makefile-like [make.js](https://github.com/gnab/remark/blob/master/make.js) file producing _out/remark.js_ and the minified _out/remark.min.js_.
 
 The `all` target comprises the targets `lint`, `test`, `bundle` and `minify`, any of which can be run individually by issuing `node make <target>`.
 
