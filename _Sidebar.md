@@ -11,7 +11,5 @@
   * [[Content classes|Markdown#content-classes]]
   * [[Syntax highlighting|Markdown#syntax-highlighting]]
 * [[Formatting]]
-  * [[Whole-slide text alignment|Formatting#whole-slide-text-alignment]]
-  * [[Text block alignment|Formatting#text-block-alignment]]
+  * [[Alignment|Formatting#alignment]]
   * [[Images|Formatting#images]]
-  * [[Background images|Formatting#background-images]]
