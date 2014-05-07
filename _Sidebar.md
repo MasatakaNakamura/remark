@@ -13,5 +13,7 @@
     * [[layout|Markdown#layout]]
   * [[Content classes|Markdown#content-classes]]
   * [[Syntax highlighting|Markdown#syntax-highlighting]]
+* [[Configuration]]
+  * [[API|Configuration#API]]
 * [[Contributing]]
   * [[Building|Contributing#building]]
