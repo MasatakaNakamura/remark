@@ -47,7 +47,7 @@ Empty lines before and after the two dashes are of significance as the preceding
 
 Initial lines of a slide on a key-value format will be extracted as slide properties.
 
-#### name
+### name
 
 The `name` property accepts a name used to identify the current slide:
 
