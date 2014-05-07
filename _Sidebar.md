@@ -9,3 +9,4 @@
     * [[layout|Markdown#layout]]
   * [[Content classes|Markdown#content-classes]]
   * [[Syntax highlighting|Markdown#syntax-highlighting]]
+* [[Formatting]]
