@@ -13,3 +13,5 @@
 * [[Formatting]]
   * [[Alignment|Formatting#alignment]]
   * [[Images|Formatting#images]]
+* [[Contributing]]
+  * [[Building]]
