@@ -1,10 +1,12 @@
-#### Prerequisites
+## Building
+
+### Prerequisites
 
 Building remark requires you to have the following software installed:
   * [`git`](http://git-scm.com/)
   * [`node`](http://nodejs.org/) (and `npm`, which is included in recent node versions)
 
-#### Downloading source and installing dependencies
+### Downloading source and installing dependencies
 
 In addition to cloning the remark repository, it's git sub modules and node package dependencies must be installed as well:
 
@@ -15,7 +17,7 @@ git submodule update --init --recursive
 npm install
 ```
 
-#### Building remark
+### Building remark
 
 To build remark, there's one final command to execute:
 
@@ -27,7 +29,7 @@ This will trigger the `all` target in the Makefile-like [make.js](https://github
 
 The `all` target comprises the targets `lint`, `test`, `bundle` and `minify`, any of which can be run individually by issuing `node make <target>`.
 
-#### Building remark highlighter
+### Building remark highlighter
 
 In addition to building remark itself, there's an additional `highlighter` target that will bundle [Highlight.js](http://softwaremaniacs.org/soft/highlight/en/) into the [src/remark/highlighter.js](https://github.com/gnab/remark/blob/master/src/remark/highlighter.js) file.
 
