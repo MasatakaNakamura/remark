@@ -65,9 +65,6 @@ class: center, middle
 * [[API]]
   * [[Configuration Options|Configuration-Options]]
 
-### Taking it Further
-* [[Building remark|Building-remark]]
-
 ### User Contributions
 * [[LaTeX in remark Using MathJax|Latex-using-MathJax]]
 * [Coloured Terminal Listings in remark](http://joshbode.github.com/remark/ansi.html)
