@@ -191,7 +191,7 @@ Resulting HTML extract:
       <span class="red bold">*</span> Important footnote
     </span>
 
-Content classes available include `left`, `center` and `right`.
+Content classes available include `left`, `center` and `right`, which may be used to [[align text blocks|Formatting#text-block-alignment]].
 
 ## Syntax Highlighting
 
