@@ -15,5 +15,7 @@
   * [[Syntax highlighting|Markdown#syntax-highlighting]]
 * [[Configuration]]
   * [[API|Configuration#api]]
+* [[Examples]]
+  * [[LaTeX using MathJax|Examples#latex-using-mathjax]]
 * [[Contributing]]
   * [[Building|Contributing#building]]
