@@ -65,7 +65,7 @@ Slide properties serve multiple purposes:
 
 Check out the [[list of supported slide properties|Slide-Properties]].
 
-### <a name="content-classes">Content Classes</a>
+## Content Classes
 
 Any occurences of one or more dotted CSS class names followed by square brackets are replaced with the contents of the brackets with the specified classes applied:
 
@@ -79,7 +79,7 @@ Resulting HTML extract:
 
 Content classes available include `left`, `center` and `right`.
 
-### Syntax Highlighting
+## Syntax Highlighting
 
 Github Flavored Markdown ([GFM](http://github.github.com/github-flavored-markdown/)) fenced code blocks are the preferred way of creating code blocks, easily letting you specify the highlighting language:
 
@@ -93,6 +93,8 @@ end
 ```</pre>
 
 A default highlighting language may be configured using the [[highlightLanguage|Configuration-Options#wiki-highlighting]] configuration option. Specifying a language on a code block will override the default.
+
+### Line Highlighting
 
 Lines prefixed with `*` will automatically get highlighted with a yellow background, which can be handy for
 bringing attention to specific parts of code snippets, i.e.:
