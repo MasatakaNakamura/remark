@@ -60,8 +60,6 @@ class: center, middle
 
 ### Moving On
 * [[Styling]]
-* [[Markdown Extensions|Markdown-Extensions]]
-  * [[Slide properties|Slide-Properties]]
 * [[API]]
   * [[Configuration Options|Configuration-Options]]
 
