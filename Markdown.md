@@ -93,7 +93,7 @@ Resulting HTML extract:
       <h1>Slide with content centered in both dimensions</h1>
 ```
 
-Built-in slide classes include `left`, `center`, `right`, `top`, `middle` and `bottom`.
+Built-in slide classes include `left`, `center`, `right`, `top`, `middle` and `bottom`, which may be used to [[align entire slides|Formatting#whole-slide-text-alignment]].
 
 ### background-image
 
