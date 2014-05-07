@@ -1,2 +1,2 @@
-[[Markdown]]
-* [[Slide separators|Markdown#slide-separators]]
+* [[Markdown]]
+  * [[Slide separators|Markdown#slide-separators]]
