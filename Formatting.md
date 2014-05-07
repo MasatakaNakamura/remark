@@ -1,6 +1,6 @@
 ### Whole-slide text alignment
 
-The [class](Slide-Properties#class) slide property lets you assign CSS classes to a slide, and remark comes with a set of classes for setting horizontal and vertical text alignment:
+The [[class|Markdown#class]] slide property lets you assign CSS classes to a slide, and remark comes with a set of classes for setting horizontal and vertical text alignment:
 
 ```markdown
 class: middle, center
@@ -19,9 +19,9 @@ The classes available for _horizontally_ aligning text are:
 * `center`
 * `right`
 
-### <a name="block">Text block alignment</a>
+### Text block alignment
 
-[[Content classes|Markdown-extensions#wiki-content-classes]] let you assign CSS classes to a text block, and remark comes with a set of classes for setting horizontal text alignment:
+[[Content classes|Markdown#content-classes]] let you assign CSS classes to a text block, and remark comes with a set of classes for setting horizontal text alignment:
 
 ```markdown
 # Text alignment
