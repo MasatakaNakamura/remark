@@ -1,4 +1,5 @@
 * [[Home]]
+  * [[Getting started|Home#getting-started]]
 * [[Markdown]]
   * [[Slide separators|Markdown#slide-separators]]
   * [[Slide properties|Markdown#slide-properties]]
