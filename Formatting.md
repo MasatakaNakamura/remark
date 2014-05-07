@@ -1,3 +1,5 @@
+## Alignment
+
 ### Whole-slide text alignment
 
 The [[class|Markdown#class]] slide property lets you assign CSS classes to a slide, and remark comes with a set of classes for setting horizontal and vertical text alignment:
@@ -39,7 +41,9 @@ The classes available for _horizontally_ aligning text are:
 * `center`
 * `right`
 
-### Images
+## Images
+
+### Regular images
 
 Regular images are inserted using normal Markdown [image syntax](http://daringfireball.net/projects/markdown/syntax#img), and are treated like regular content that can be placed inside [[content classes|Markdown#content-classes]], i.e. to be [[aligned|Formatting#text-block-alignment]]:
 
