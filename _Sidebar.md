@@ -14,4 +14,4 @@
   * [[Alignment|Formatting#alignment]]
   * [[Images|Formatting#images]]
 * [[Contributing]]
-  * [[Contributing|Contributing#Building]]
+  * [[Building|Contributing#Building]]
