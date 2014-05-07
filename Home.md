@@ -1,11 +1,5 @@
 A simple, in-browser, Markdown-driven slideshow tool targeted at people who know their way around HTML and CSS.
 
-### The Basics
-* [[Getting Started|Getting-Started]]
-* [[Markdown]]
-* [[Text Alignment|Text-alignment]]
-* [[Images]]
-
 ### Moving On
 * [[Styling]]
 * [[Markdown Extensions|Markdown-Extensions]]
