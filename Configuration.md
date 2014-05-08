@@ -19,7 +19,12 @@ var slideshow = remark.create({
     // Enable or disable navigation using touch
     // Default: true
     // Alternatives: false
-    touch: true
+    touch: true,
+
+    // Enable or disable navigation using click
+    // Default: false
+    // Alternatives: true
+    click: false
   }
 }); 
 ```
