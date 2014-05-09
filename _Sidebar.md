@@ -1,5 +1,6 @@
 * [[Home]]
   * [[Getting started|Home#getting-started]]
+  * [[How it works|Home#how-it-works]]
 * [[Formatting]]
   * [[Alignment|Formatting#alignment]]
   * [[Images|Formatting#images]]
