@@ -66,10 +66,11 @@ A slide name may be used to:
  - Identify slide DOM element, either for scripting or styling purposes:
 
     ```html
-    <div class="remark-slideshow">
-      <div class="remark-slide">
-        <div id="slide-agenda" class="remark-slide-content">
-          <h1>Agenda</h1>
+    <div class="remark-slide-container">
+      <div class="remark-slide-scaler">
+        <div class="remark-slide">
+          <div id="slide-agenda" class="remark-slide-content">
+            <h1>Agenda</h1>
     ```
 
  - Reference slide when using the [[template|Markdown#template]] slide property.
