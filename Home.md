@@ -106,4 +106,4 @@ When using an external markdown file, remark will create a `div.remark-slides-ar
 </textarea>
 ```
 
-When working locally, with your slideshow HTML opened directly from disk, using the `sourceUrl` won't work out of the box. This requires hosting your files using a web server, i.e. by running `python -m SimpleHTTPServer` or `python3 -m http.server` and accessing your files via [http://localhost:8000](http://localhost:8000).
+When working locally, with your slideshow HTML opened directly from disk, using the `sourceUrl` won't work out of the box. This requires hosting your files using a web server, i.e. by running `python3 -m http.server` in the directory of the `index.html`. There are [many of other ways to starting a static webserver](https://gist.github.com/willurd/5720255). With a web server started, you should be able to access your files via [http://localhost:8000](http://localhost:8000).
