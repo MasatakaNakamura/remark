@@ -98,4 +98,12 @@ var slideshow = remark.create({
 });
 ```
 
+When using an external markdown file, remark will create a `div.remark-slides-area` element itself, so you can delete the following element from the `index.html`:
+
+```html
+<textarea id="source">
+[...]
+</textarea>
+```
+
 When working locally, with your slideshow HTML opened directly from disk, using the `sourceUrl` won't work out of the box. This requires hosting your files using a web server, i.e. by running `python -m SimpleHTTPServer` or `python3 -m http.server` and accessing your files via [http://localhost:8000](http://localhost:8000).
