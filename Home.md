@@ -62,6 +62,8 @@ class: center, middle
 
 ### Instantiation
 
+#### Default
+
 Calling the `create` function triggers the creation of a new slideshow:
 
 ```javascript
@@ -76,6 +78,8 @@ When called without any arguments, the source Markdown used to create the slides
 </textarea>
 ```
 
+#### Custom Identifier
+
 Alternatively, an arguments object may be passed to `create`. If that object contains a `source` field, its value will be used instead of looking for the above text area:
 
 ```javascript
@@ -84,7 +88,9 @@ var slideshow = remark.create({
 });
 ```
 
-Depending on your preferences, you might want to keep the Markdown source in a separate file. Using the `sourceUrl` field, an URL may be specified which will get loaded synchronously and used instead of the two former options:
+#### External Markdown
+
+Depending on your preference, you might want to keep the Markdown source in a separate file. Using the `sourceUrl` field, an URL may be specified which will get loaded synchronously and used instead of the two former options:
 
 ```javascript
 var slideshow = remark.create({
@@ -92,4 +98,4 @@ var slideshow = remark.create({
 });
 ```
 
-When working locally, with your slideshow HTML opened directly from disk, using the `sourceUrl` won't work out of the box. This requires hosting your files using a web server, i.e. by running `python -m SimpleHTTPServer` and accessing your files via [http://localhost:8000](http://localhost:8000).
+When working locally, with your slideshow HTML opened directly from disk, using the `sourceUrl` won't work out of the box. This requires hosting your files using a web server, i.e. by running `python -m SimpleHTTPServer` or `python3 -m http.server` and accessing your files via [http://localhost:8000](http://localhost:8000).
