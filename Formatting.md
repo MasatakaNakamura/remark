@@ -45,7 +45,7 @@ The classes available for _horizontally_ aligning text are:
 
 ### Regular images
 
-Regular images are inserted using normal Markdown [image syntax](http://daringfireball.net/projects/markdown/syntax#img), and are treated like regular content that can be placed inside [[content classes|Markdown#content-classes]], i.e. to be [[aligned|Formatting#text-block-alignment]]:
+Regular images are inserted using normal Markdown [image syntax](http://daringfireball.net/projects/markdown/syntax#img), and are treated like regular content that can be placed inside [[content classes|Markdown#content-classes]], e.g. to be [[aligned|Formatting#text-block-alignment]]:
 
 ```markdown
 # Images
