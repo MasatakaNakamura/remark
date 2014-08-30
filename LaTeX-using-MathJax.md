@@ -25,7 +25,7 @@ class: center, middle
 2. More `\(x={a \over b}\)` formulae.
  
 Display formula:
-    $$e^{i\pi} + 1 = 0$$
+    `$$e^{i\pi} + 1 = 0$$`
 
     </textarea>
     <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript"></script>
