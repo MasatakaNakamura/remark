@@ -25,6 +25,13 @@ var slideshow = remark.create({
     // Default: false
     // Alternatives: true
     click: false
+  },
+
+  // Customize slide number label, either using a format string..
+  slideNumberFormat: 'Slide %current% of %total%',
+  // .. or by using a format function
+  slideNumberFormat: function (current, total) {
+    return 'Slide ' + current + ' of ' + total;
   }
 }); 
 ```
