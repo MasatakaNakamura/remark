@@ -94,7 +94,7 @@ slideshow.pause();
 slideshow.resume();
 ```
 
-Read more about [[naming slides|Slide-Properties#wiki-name]].
+Read more about [[naming slides|Markdown#name]].
 
 #### Events
 
