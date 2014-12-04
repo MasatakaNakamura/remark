@@ -70,7 +70,7 @@ var slideshow = remark.create({
 
 This should all go in a `<script>` block __in the end__ of your `<body>` tag.
 
-Check out the list of [[configuration options|#general]] at the top of this page.
+Check out the list of [[configuration options|Configuration#general]] at the top of this page.
 
 #### Navigation
 
